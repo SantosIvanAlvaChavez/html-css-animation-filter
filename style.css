@@ -77,22 +77,34 @@
 }
 
 .ex-7-img:hover {
-  filter: grayscale(1);
+    filter: grayscale(1);
 }
 
 .ex-8-img {
-  transition: filter 3s border-radius 1s;
+    transition: filter 3s,
+                border-radius 3s;
 }
 
 .ex-8-img:hover {
-  filter: grayscale(2);
-  border-radius: 30px;
+    filter: grayscale(2);
+    border-radius: 30px;
 }
 
+/* EXERCISE 9 */
 .ex-9-img {
-    margin: 50px 100px;
-    width: 400px;
+      margin: 50px 100px;
+      width: 400px;
+      transition: filter 2s,
+                  border-radius 3s,
+                  transform 2s;
 }
+
+.ex-9-img:hover {
+      filter: grayscale(1);
+      border-radius: 30px;
+      transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
