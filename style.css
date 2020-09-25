@@ -107,22 +107,40 @@
 
 /* EXERCISE 10 */
 .ex-10-icon {
-    font-size: 60px;
-    animation: spin-ex10 2s linear infinite;
+      font-size: 60px;
+      animation: spin-ex10 2s linear infinite;
 }
 
 @keyframes spin-ex10 {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
 }
 
+/* EXERCISE11 */
 .ex-11-icon {
-    font-size: 60px;
+      font-size: 60px;
 }
+
+.ex-11-icon:hover {
+      animation: spin-ex11 2s linear infinite;
+}
+
+@keyframes spin-ex11 {
+      0% {
+         transform: rotate(0deg);
+         }
+       75% {
+         transform: rotate(270deg);
+       }
+       100% {
+         transform: rotate(0deg);
+       }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
