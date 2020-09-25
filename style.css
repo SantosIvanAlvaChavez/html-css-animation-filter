@@ -22,11 +22,19 @@
     width: 100%;
 }
 
+/* EXERCISE 3 */
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: border-radius 5s;
 }
+
+.ex-3-square {
+    border-radius: 50%;
+}
+
+/* EXERCISE 4 */
 .ex-4-square {
     width: 100px;
     height: 100px;
